@@ -411,3 +411,41 @@ footer {
         padding: 20px;
     }
 }
+/* Asegurar visibilidad y diseño elegante para los iconos sociales */
+.social-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #ffffff; /* Color blanco para que Resalte */
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: sans-serif;
+    transition: color 0.3s ease;
+}
+
+.social-links a i {
+    margin-right: 8px;
+    font-size: 1.4rem; /* Tamaño del icono */
+}
+
+/* Colores personalizados al pasar el mouse por encima */
+.social-links a.facebook:hover {
+    color: #1877f2; /* Azul Facebook */
+}
+
+.social-links a.instagram:hover {
+    color: #e4405f; /* Rosa/Rojo Instagram */
+}
+
+.social-links a.github:hover {
+    color: #f0f6fc; /* Blanco claro GitHub */
+}
